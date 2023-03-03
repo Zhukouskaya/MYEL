@@ -1,4 +1,7 @@
 @import './header.css';
+@import './text-board.css';
+@import './t-shirt-board.css';
+@import './swiper.css';
 
 .maketforfigma{
     flex: 0 0 auto;
@@ -26,10 +29,11 @@
     color: #ffffff
 }
 .main{
-    flex: 1 0 auto;
+    margin: 0 auto;
 }
 html{
     height: 100%;
+    overflow-x:hidden;
 }
 body{
     display: flex;
@@ -41,11 +45,13 @@ body{
 .page {
     max-width: 1440px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
+    background-color: #F1F1F1;
 }
 p {
     margin: 0;
@@ -54,5 +60,9 @@ ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+.book {
+    display: flex;
 }
 

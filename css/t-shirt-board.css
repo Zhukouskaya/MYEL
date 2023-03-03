@@ -1,0 +1,23 @@
+.t-shirt-board {
+  display: flex;
+}
+.t-shirt-board__title {
+  position: relative;
+  left: 53px;
+  top: -895px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 60px;
+  color: #000000;
+}
+.t-shirt-board__description {
+  position: relative;
+  left: 50px;
+  bottom: 148px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}

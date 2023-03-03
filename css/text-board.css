@@ -1,0 +1,25 @@
+.text-board {
+  padding: 73px 64px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #000000;
+}
+.text-board__uppercase{
+  width: 833px;
+  font-size: 64px;
+  line-height: 64px;
+
+  padding-bottom: 31px;
+}
+.text-board__lowercase {
+  font-size: 20px;
+  line-height: 25px;
+}
+.text-board__right {
+  position: relative;
+  bottom: 301px;
+  left: 1206px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,36 @@
+.swiper {
+  padding: 0 60px;
+}
+.swiper__title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+.swiper__body {
+  display: flex;
+  gap: 25px;
+}
+.swiper__body_block img {
+  object-fit: cover;
+}
+.swiper__btn {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+.swiper__btn button {
+  border: none;
+}
+.swiper__body_block p {
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 42px;
+  color: #FFFFFF;
+}

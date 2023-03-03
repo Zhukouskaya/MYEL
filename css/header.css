@@ -6,6 +6,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 }
 .header__info p {
   padding: 11px 0;
@@ -26,6 +31,25 @@
 .header__nav_item span{
   color: #C4C4C4;
 }
-.header__img-list{
+.header__img-list {
   display: flex;
+  text-transform: uppercase;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
+.header__img-item_p {
+  position: relative;
+  bottom: 55px;
+  left: 25px;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+}
+.header__img-item_p-last{
+  position: relative;
+  bottom: 155px;
+  left: 330px;
+  color: #000000;
+  font-size: 18px;
+  line-height: 22px;
+} 
