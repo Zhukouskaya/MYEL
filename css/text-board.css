@@ -14,10 +14,11 @@
 .text-board__lowercase {
   font-size: 20px;
   line-height: 25px;
+  padding-bottom: 65px;
 }
 .text-board__right {
   position: relative;
-  bottom: 301px;
+  bottom: 439px;
   left: 1206px;
   font-size: 18px;
   line-height: 22px;

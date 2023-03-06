@@ -1,7 +1,23 @@
-.t-shirt-board {
+.img-board {
   display: flex;
 }
-.t-shirt-board__title {
+.img-board__block img {
+  width: 720px;
+  height: 936px;
+}
+.img-board__text {
+  position: relative;
+  left: 46px;
+  top: -909px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.img-board__title {
+  width: 485px;
+  object-fit: cover;
   position: relative;
   left: 53px;
   top: -895px;
@@ -11,7 +27,7 @@
   line-height: 60px;
   color: #000000;
 }
-.t-shirt-board__description {
+.img-board__description {
   position: relative;
   left: 50px;
   bottom: 148px;

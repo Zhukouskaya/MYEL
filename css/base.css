@@ -1,7 +1,8 @@
 @import './header.css';
 @import './text-board.css';
-@import './t-shirt-board.css';
+@import './img-board.css';
 @import './swiper.css';
+@import './process.css';
 
 .maketforfigma{
     flex: 0 0 auto;
@@ -61,8 +62,12 @@ ul {
     padding: 0;
     margin: 0;
 }
-
-.book {
-    display: flex;
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
 }
-

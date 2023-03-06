@@ -1,5 +1,9 @@
-.swiper {
+.swiper,
+.swiper-jewelry {
   padding: 0 60px;
+}
+.swiper-jewelry {
+padding-bottom: 177px;
 }
 .swiper__title {
   font-family: 'Roboto';
@@ -7,24 +11,28 @@
   font-size: 24px;
   line-height: 30px;
   color: #000000;
+  text-decoration: none;
 }
 .swiper__body {
   display: flex;
+  justify-content: center;
   gap: 25px;
 }
 .swiper__body_block img {
   object-fit: cover;
 }
-.swiper__btn {
+.swiper__btn,
+.swiper-jewelry__btn {
   display: flex;
   gap: 5px;
   justify-content: flex-end;
   padding-bottom: 5px;
 }
-.swiper__btn button {
+.swiper__btn button,
+.swiper-jewelry__btn button {
   border: none;
 }
-.swiper__body_block p {
+.swiper__body_block_text {
   position: relative;
   bottom: 50px;
   left: 20px;
@@ -33,4 +41,26 @@
   font-size: 33px;
   line-height: 42px;
   color: #FFFFFF;
+}
+.swiper-jewelry_text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  padding-top: 27px;
+  width: 310px;
+  height: 44px;
+}
+.swiper-jewelry_price {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+.swiper-jewelry_link {
+  display: flex;
+  align-items: flex-end;
+
 }
