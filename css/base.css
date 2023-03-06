@@ -3,6 +3,8 @@
 @import './img-board.css';
 @import './swiper.css';
 @import './process.css';
+@import './subscribe.css';
+@import './footer.css';
 
 .maketforfigma{
     flex: 0 0 auto;
